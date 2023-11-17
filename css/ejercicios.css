@@ -1,0 +1,25 @@
+.flexContainer {
+    display: flex;
+}
+.flexItem {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+.flexContainer :nth-child(1){
+    background-color: blue;
+}
+.flexContainer :nth-child(2){
+    background-color: yellow;
+}
+.flexContainer :nth-child(3){
+    background-color: red;
+}
+.flexContainer :nth-child(4){
+    background-color: green;
+}
+
+.flexItem:first-child {
+    flex-shrink: 2;
+}
